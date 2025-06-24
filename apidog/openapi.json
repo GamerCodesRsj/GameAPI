@@ -9,7 +9,40 @@
   "tags": [],
   "paths": {},
   "components": {
-    "schemas": {},
+    "schemas": {
+      "username": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "name"
+          },
+          "group": {
+            "type": "object",
+            "properties": {
+              "username": {
+                "type": "string",
+                "title": "",
+                "description": "username"
+              }
+            },
+            "description": "category",
+            "required": [
+              "username"
+            ]
+          },
+          "status": {
+            "type": "string",
+            "description": "status"
+          }
+        },
+        "required": [
+          "name",
+          "group",
+          "status"
+        ]
+      }
+    },
     "securitySchemes": {}
   },
   "servers": [],
