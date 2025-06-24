@@ -1,0 +1,18 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Game",
+    "description": "This is OAS description...",
+    "version": "1.0.0",
+    "x-ext-example": "This is example OAS info extension"
+  },
+  "tags": [],
+  "paths": {},
+  "components": {
+    "schemas": {},
+    "securitySchemes": {}
+  },
+  "servers": [],
+  "security": [],
+  "x-ext-example": "This is example OAS extension"
+}
